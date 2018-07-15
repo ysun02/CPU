@@ -218,9 +218,9 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <circ-port height="10" pin="1190,170" width="10" x="105" y="45"/>
       <circ-port height="10" pin="1280,170" width="10" x="145" y="45"/>
       <circ-port height="10" pin="1370,170" width="10" x="185" y="45"/>
-      <circ-port height="10" pin="1460,170" width="10" x="305" y="45"/>
-      <circ-port height="10" pin="1550,170" width="10" x="225" y="45"/>
-      <circ-port height="10" pin="1640,170" width="10" x="265" y="45"/>
+      <circ-port height="10" pin="1460,170" width="10" x="225" y="45"/>
+      <circ-port height="10" pin="1550,170" width="10" x="265" y="45"/>
+      <circ-port height="10" pin="1640,170" width="10" x="305" y="45"/>
       <circ-port height="10" pin="1730,170" width="10" x="345" y="45"/>
       <circ-anchor facing="east" height="6" width="6" x="367" y="167"/>
     </appear>
@@ -228,11 +228,18 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(1750,190)" to="(1790,190)"/>
     <wire from="(1040,70)" to="(1790,70)"/>
     <wire from="(380,240)" to="(380,310)"/>
+    <wire from="(230,390)" to="(230,460)"/>
+    <wire from="(150,400)" to="(150,410)"/>
+    <wire from="(230,500)" to="(230,510)"/>
     <wire from="(590,190)" to="(590,260)"/>
     <wire from="(570,270)" to="(610,270)"/>
+    <wire from="(230,380)" to="(340,380)"/>
+    <wire from="(340,380)" to="(340,460)"/>
+    <wire from="(140,360)" to="(140,380)"/>
     <wire from="(1040,190)" to="(1080,190)"/>
     <wire from="(1660,190)" to="(1710,190)"/>
     <wire from="(590,280)" to="(590,310)"/>
+    <wire from="(230,360)" to="(230,380)"/>
     <wire from="(1480,190)" to="(1530,190)"/>
     <wire from="(590,70)" to="(590,150)"/>
     <wire from="(1570,190)" to="(1620,190)"/>
@@ -241,11 +248,21 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <wire from="(1300,190)" to="(1350,190)"/>
     <wire from="(250,130)" to="(250,160)"/>
     <wire from="(1120,190)" to="(1170,190)"/>
+    <wire from="(140,380)" to="(170,380)"/>
     <wire from="(1790,70)" to="(1790,190)"/>
+    <wire from="(140,360)" to="(230,360)"/>
     <wire from="(190,140)" to="(190,240)"/>
+    <wire from="(310,460)" to="(340,460)"/>
     <wire from="(380,310)" to="(590,310)"/>
+    <wire from="(340,460)" to="(360,460)"/>
+    <wire from="(150,400)" to="(170,400)"/>
+    <wire from="(210,390)" to="(230,390)"/>
+    <wire from="(230,460)" to="(250,460)"/>
+    <wire from="(210,510)" to="(230,510)"/>
+    <wire from="(230,500)" to="(250,500)"/>
     <wire from="(190,70)" to="(190,120)"/>
     <wire from="(190,70)" to="(590,70)"/>
+    <wire from="(140,410)" to="(150,410)"/>
     <wire from="(250,160)" to="(260,160)"/>
     <wire from="(1040,70)" to="(1040,190)"/>
     <wire from="(520,170)" to="(600,170)"/>
@@ -343,7 +360,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="width" val="32"/>
       <a name="label" val="PC"/>
     </comp>
-    <comp lib="8" loc="(770,490)" name="main"/>
     <comp lib="7" loc="(1080,450)" name="alu"/>
     <comp lib="9" loc="(1280,470)" name="main">
       <a name="label" val="MEM"/>
@@ -359,6 +375,21 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <comp lib="6" loc="(412,49)" name="Text">
       <a name="text" val="Inputs/Outputs from run.circ. DO NOT MOVE THESE."/>
       <a name="font" val="SansSerif bold 22"/>
+    </comp>
+    <comp lib="8" loc="(840,470)" name="main"/>
+    <comp lib="0" loc="(360,460)" name="Tunnel">
+      <a name="width" val="32"/>
+      <a name="label" val="fetch_addr"/>
+    </comp>
+    <comp lib="3" loc="(210,390)" name="Adder">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(140,410)" name="Constant">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(210,510)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
     </comp>
   </circuit>
 </project>
