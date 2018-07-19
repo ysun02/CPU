@@ -134,22 +134,21 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <circ-port height="8" pin="280,80" width="8" x="46" y="56"/>
       <circ-port height="8" pin="380,360" width="8" x="46" y="66"/>
       <circ-port height="8" pin="290,150" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="330,310" width="8" x="86" y="96"/>
       <circ-port height="10" pin="780,290" width="10" x="125" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="127" y="67"/>
     </appear>
     <wire from="(340,150)" to="(340,250)"/>
-    <wire from="(380,290)" to="(380,360)"/>
+    <wire from="(750,280)" to="(750,290)"/>
+    <wire from="(700,280)" to="(750,280)"/>
     <wire from="(380,80)" to="(380,210)"/>
+    <wire from="(750,290)" to="(780,290)"/>
     <wire from="(440,210)" to="(460,210)"/>
     <wire from="(290,150)" to="(340,150)"/>
     <wire from="(340,250)" to="(460,250)"/>
-    <wire from="(330,270)" to="(330,310)"/>
     <wire from="(310,260)" to="(460,260)"/>
-    <wire from="(380,290)" to="(460,290)"/>
+    <wire from="(380,280)" to="(460,280)"/>
+    <wire from="(380,280)" to="(380,360)"/>
     <wire from="(280,80)" to="(380,80)"/>
-    <wire from="(700,290)" to="(780,290)"/>
-    <wire from="(330,270)" to="(460,270)"/>
     <wire from="(380,210)" to="(420,210)"/>
     <comp lib="0" loc="(420,210)" name="Splitter">
       <a name="fanout" val="1"/>
@@ -206,10 +205,6 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="label" val="Write_Data"/>
     </comp>
     <comp lib="0" loc="(310,260)" name="Constant"/>
-    <comp lib="0" loc="(330,310)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="label" val="Clock"/>
-    </comp>
     <comp lib="0" loc="(780,290)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
