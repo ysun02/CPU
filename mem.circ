@@ -190,6 +190,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
     <comp lib="4" loc="(460,200)" name="RAM">
       <a name="addrWidth" val="14"/>
       <a name="dataWidth" val="32"/>
+      <a name="trigger" val="high"/>
       <a name="databus" val="bibus"/>
     </comp>
     <comp lib="0" loc="(280,80)" name="Pin">
