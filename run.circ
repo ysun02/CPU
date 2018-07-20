@@ -255,6 +255,7 @@
       <a name="width" val="32"/>
       <a name="label" val="t1"/>
       <a name="labelloc" val="north"/>
+      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(550,110)" name="Pin">
       <a name="facing" val="south"/>
@@ -262,6 +263,7 @@
       <a name="width" val="32"/>
       <a name="label" val="t0"/>
       <a name="labelloc" val="north"/>
+      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(460,110)" name="Pin">
       <a name="facing" val="south"/>
@@ -284,6 +286,7 @@
       <a name="width" val="32"/>
       <a name="label" val="s1"/>
       <a name="labelloc" val="north"/>
+      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(820,110)" name="Pin">
       <a name="facing" val="south"/>
@@ -299,6 +302,7 @@
       <a name="width" val="32"/>
       <a name="label" val="t2"/>
       <a name="labelloc" val="north"/>
+      <a name="radix" val="16"/>
     </comp>
     <comp lib="7" loc="(870,310)" name="main"/>
     <comp lib="0" loc="(510,260)" name="Tunnel">
@@ -371,7 +375,9 @@
       <a name="addrWidth" val="14"/>
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 14 32
-140413 e00493 941433 404b3 8482b3 fffff0b7
+ff410113 112023 812223 912423 300413 4b3 804c63 40533
+2a50533 a484b3 fff40413 fedff06f 48533 12083 412403 812483
+c10113
 </a>
     </comp>
     <comp lib="0" loc="(1130,760)" name="Probe">
