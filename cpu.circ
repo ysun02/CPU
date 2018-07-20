@@ -1368,6 +1368,7 @@
     <wire from="(1480,600)" to="(1560,600)"/>
     <wire from="(180,2750)" to="(200,2750)"/>
     <wire from="(660,1620)" to="(690,1620)"/>
+    <wire from="(2170,1170)" to="(2170,1310)"/>
     <wire from="(130,780)" to="(150,780)"/>
     <wire from="(100,1390)" to="(120,1390)"/>
     <wire from="(90,1700)" to="(110,1700)"/>
@@ -1452,6 +1453,7 @@
     <wire from="(190,1120)" to="(190,1140)"/>
     <wire from="(180,3670)" to="(180,3700)"/>
     <wire from="(1440,1090)" to="(1440,1100)"/>
+    <wire from="(2040,1310)" to="(2170,1310)"/>
     <wire from="(1410,2280)" to="(1870,2280)"/>
     <wire from="(1780,790)" to="(1780,850)"/>
     <wire from="(720,2080)" to="(740,2080)"/>
@@ -1520,6 +1522,7 @@
     <wire from="(680,2000)" to="(680,2010)"/>
     <wire from="(170,1810)" to="(170,1820)"/>
     <wire from="(100,3660)" to="(100,3670)"/>
+    <wire from="(2170,1170)" to="(2320,1170)"/>
     <wire from="(650,780)" to="(690,780)"/>
     <wire from="(680,1450)" to="(720,1450)"/>
     <wire from="(90,2370)" to="(90,2390)"/>
@@ -3458,7 +3461,7 @@
     </comp>
     <comp lib="1" loc="(2350,1170)" name="OR Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
+      <a name="inputs" val="9"/>
     </comp>
     <comp lib="0" loc="(620,2880)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -3512,6 +3515,10 @@
       <a name="output" val="true"/>
       <a name="label" val="lh"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(2040,1310)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="mul"/>
     </comp>
   </circuit>
   <circuit name="IMM_GEN">
