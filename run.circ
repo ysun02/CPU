@@ -196,51 +196,55 @@
     <a name="circuitnamedbox" val="false"/>
     <a name="circuitvhdlpath" val=""/>
     <wire from="(1630,980)" to="(1670,980)"/>
-    <wire from="(1710,970)" to="(1750,970)"/>
-    <wire from="(770,140)" to="(820,140)"/>
+    <wire from="(910,650)" to="(910,660)"/>
     <wire from="(640,140)" to="(690,140)"/>
     <wire from="(1070,760)" to="(1110,760)"/>
     <wire from="(810,150)" to="(910,150)"/>
-    <wire from="(820,110)" to="(820,140)"/>
     <wire from="(550,150)" to="(650,150)"/>
-    <wire from="(640,110)" to="(640,140)"/>
-    <wire from="(610,160)" to="(610,190)"/>
     <wire from="(850,170)" to="(850,190)"/>
-    <wire from="(730,110)" to="(730,190)"/>
     <wire from="(570,170)" to="(570,190)"/>
     <wire from="(590,430)" to="(590,450)"/>
     <wire from="(200,860)" to="(200,890)"/>
-    <wire from="(1560,820)" to="(1560,890)"/>
     <wire from="(510,260)" to="(550,260)"/>
-    <wire from="(1650,890)" to="(1650,960)"/>
     <wire from="(550,110)" to="(550,150)"/>
-    <wire from="(900,660)" to="(1110,660)"/>
     <wire from="(650,150)" to="(650,190)"/>
-    <wire from="(490,610)" to="(490,710)"/>
     <wire from="(810,150)" to="(810,190)"/>
     <wire from="(910,110)" to="(910,150)"/>
     <wire from="(490,710)" to="(520,710)"/>
     <wire from="(850,170)" to="(1000,170)"/>
-    <wire from="(470,710)" to="(490,710)"/>
     <wire from="(460,160)" to="(610,160)"/>
-    <wire from="(880,310)" to="(910,310)"/>
     <wire from="(490,610)" to="(500,610)"/>
+    <wire from="(1650,960)" to="(1670,960)"/>
+    <wire from="(1110,660)" to="(1110,760)"/>
+    <wire from="(1310,790)" to="(1340,790)"/>
+    <wire from="(370,110)" to="(370,170)"/>
+    <wire from="(370,170)" to="(570,170)"/>
+    <wire from="(1110,760)" to="(1130,760)"/>
+    <wire from="(1560,890)" to="(1650,890)"/>
+    <wire from="(650,600)" to="(650,610)"/>
+    <wire from="(1710,970)" to="(1750,970)"/>
+    <wire from="(770,140)" to="(820,140)"/>
+    <wire from="(820,110)" to="(820,140)"/>
+    <wire from="(640,110)" to="(640,140)"/>
+    <wire from="(610,160)" to="(610,190)"/>
+    <wire from="(730,110)" to="(730,190)"/>
+    <wire from="(1560,820)" to="(1560,890)"/>
+    <wire from="(1650,890)" to="(1650,960)"/>
+    <wire from="(490,610)" to="(490,710)"/>
+    <wire from="(470,710)" to="(490,710)"/>
+    <wire from="(880,310)" to="(910,310)"/>
     <wire from="(480,610)" to="(490,610)"/>
     <wire from="(1000,110)" to="(1000,170)"/>
     <wire from="(1110,660)" to="(1140,660)"/>
     <wire from="(1560,820)" to="(1580,820)"/>
-    <wire from="(1650,960)" to="(1670,960)"/>
-    <wire from="(1110,660)" to="(1110,760)"/>
     <wire from="(460,110)" to="(460,160)"/>
-    <wire from="(1310,790)" to="(1340,790)"/>
+    <wire from="(910,660)" to="(1110,660)"/>
+    <wire from="(520,610)" to="(650,610)"/>
     <wire from="(690,140)" to="(690,190)"/>
-    <wire from="(370,110)" to="(370,170)"/>
     <wire from="(770,140)" to="(770,190)"/>
     <wire from="(1540,820)" to="(1560,820)"/>
-    <wire from="(520,610)" to="(660,610)"/>
-    <wire from="(370,170)" to="(570,170)"/>
-    <wire from="(1110,760)" to="(1130,760)"/>
-    <wire from="(1560,890)" to="(1650,890)"/>
+    <wire from="(900,650)" to="(910,650)"/>
+    <wire from="(650,600)" to="(660,600)"/>
     <comp lib="0" loc="(370,110)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -271,6 +275,7 @@
       <a name="width" val="32"/>
       <a name="label" val="sp"/>
       <a name="labelloc" val="north"/>
+      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(1000,110)" name="Pin">
       <a name="facing" val="south"/>
@@ -294,7 +299,7 @@
       <a name="width" val="32"/>
       <a name="label" val="s0"/>
       <a name="labelloc" val="north"/>
-      <a name="radix" val="16"/>
+      <a name="radix" val="10signed"/>
     </comp>
     <comp lib="0" loc="(730,110)" name="Pin">
       <a name="facing" val="south"/>
@@ -371,13 +376,6 @@
       <a name="label" val="Requested_Instruction"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="4" loc="(660,600)" name="ROM">
-      <a name="addrWidth" val="14"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 14 32
-12345437 67840413 2802423 2a01083
-</a>
-    </comp>
     <comp lib="0" loc="(1130,760)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="16"/>
@@ -440,6 +438,15 @@
     <comp lib="6" loc="(787,583)" name="Text">
       <a name="text" val="Instruction Memory"/>
       <a name="font" val="SansSerif plain 24"/>
+    </comp>
+    <comp lib="4" loc="(660,590)" name="ROM">
+      <a name="addrWidth" val="14"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 14 32
+fff00293 100313 30313 536463 130313 ffe2a513 ffe2a513 100313
+fffff537 8050513 10200293 a2a023 28503 29503 28503 29503
+2a503 a00513
+</a>
     </comp>
   </circuit>
 </project>
