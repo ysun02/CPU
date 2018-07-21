@@ -299,7 +299,7 @@
       <a name="width" val="32"/>
       <a name="label" val="s0"/>
       <a name="labelloc" val="north"/>
-      <a name="radix" val="10signed"/>
+      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(730,110)" name="Pin">
       <a name="facing" val="south"/>
@@ -443,9 +443,8 @@
       <a name="addrWidth" val="14"/>
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 14 32
-fff00293 100313 30313 536463 130313 ffe2a513 ffe2a513 100313
-fffff537 8050513 10200293 a2a023 28503 29503 28503 29503
-2a503 a00513
+2b3 100313 a00413 40c63 5303b3 30293 38313 fff40413
+fedff06f 100513 28593 73 a00513 73
 </a>
     </comp>
   </circuit>

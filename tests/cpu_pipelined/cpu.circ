@@ -3495,10 +3495,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="BrEq"/>
     </comp>
-    <comp lib="0" loc="(390,990)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="beq"/>
-    </comp>
     <comp lib="0" loc="(390,910)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="beq"/>
@@ -3656,6 +3652,10 @@
     </comp>
     <comp lib="0" loc="(490,1150)" name="Tunnel">
       <a name="label" val="PCSEL_bltu"/>
+    </comp>
+    <comp lib="0" loc="(390,990)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="bne"/>
     </comp>
   </circuit>
   <circuit name="IMM_GEN">
